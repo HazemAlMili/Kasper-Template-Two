@@ -26,6 +26,7 @@
     flex-direction: column;
     border: 1.5px solid var(--main-color);
     padding: 20px;
+    box-shadow: 0px 0px 20px 0px var(--main-color)
 }
 
 .form form input {
@@ -41,7 +42,7 @@
 
 .form form input:focus {
     border: 1.5px solid var(--main-color);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px 0px var(--main-color);
 }
 
 
@@ -69,7 +70,7 @@
 
 .form form textarea:focus {
     border: 1.5px solid var(--main-color);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px 0px var(--main-color);
 }
 
 .form form .c-butn {

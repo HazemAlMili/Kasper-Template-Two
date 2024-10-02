@@ -109,6 +109,7 @@ html {
     background-color: var(--secondery-color);
     width: 100%;
     height: 300px;
+    box-shadow: 0px 0px 15px 5px var(--secondery-color)
 }
 
 .subscribe p {
