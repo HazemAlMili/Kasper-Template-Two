@@ -1,0 +1,60 @@
+/* Start var. */
+:root {
+    --main-color: #00c7fc;
+    --secondery-color: #333;
+    --transition: 0.3s
+}
+
+/* End var. */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Start Landing */
+
+
+.landing {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.landing .container .text {
+    background-color: rgb(255, 255, 255, 0.3);
+    position: absolute;
+    padding: 60px 50px 80px 20%;
+    top: 25%;
+    right: 30%;
+    width: 76%;
+}
+
+@media (max-width: 767px) {
+    .landing .container .text {
+        right: 20%;
+        bottom: 10%;
+        width: 100%;
+        padding-left: 100px;
+    }
+}
+
+.landing .container .text h2 {
+    line-height: 1.8;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.landing .container .text p {
+    line-height: 1.9;
+    text-align: left;
+    font-size: 14px;
+    padding: 10px;
+    color: white;
+}
+
+/* End Landing */

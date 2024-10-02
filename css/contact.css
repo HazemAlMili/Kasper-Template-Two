@@ -1,0 +1,89 @@
+/* Start var. */
+:root {
+    --main-color: #00c7fc;
+    --secondery-color: #333;
+    --transition: 0.3s
+}
+
+/* End var. */
+
+/* Start Contact */
+
+.contact {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.form form {
+    margin: 20px;
+    flex-direction: column;
+    border: 1.5px solid var(--main-color);
+    padding: 20px;
+}
+
+.form form input {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    width: 400px;
+    outline: none;
+    border: 1px solid var(--main-color);
+}
+
+.form form input:focus {
+    border: 1.5px solid var(--main-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.form form textarea {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    min-height: 200px;
+    resize: vertical;
+    outline: none;
+    border: 1px solid var(--main-color);
+}
+
+@media (max-width:992px) {
+    .form form input {
+        width: 100%;
+    }
+
+    .form form textarea {
+        width: 100%;
+    }
+}
+
+.form form textarea:focus {
+    border: 1.5px solid var(--main-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form form .c-butn {
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: var(--transition);
+}
+
+.form form .c-butn:hover {
+    /* border: 1.5px solid var(--main-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    background-color: var(--main-color);
+    color: white;
+}
+
+/* End Contact */
