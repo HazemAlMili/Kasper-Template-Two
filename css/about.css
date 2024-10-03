@@ -200,22 +200,6 @@ html {
     height: 30px;
     background-color: var(--main-color);
     display: block;
-    animation-name: count;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-    animation-iteration-count: 1;
-    animation-delay: 0.5s;
-
-}
-
-@keyframes count {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: calc(100% - 30px);
-    }
 }
 
 .section-2 .skill .team-skills .css-val {
@@ -231,21 +215,6 @@ html {
     height: 30px;
     background-color: var(--main-color);
     display: block;
-    animation-name: count;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-    animation-iteration-count: 1;
-    animation-delay: 0.6s;
-}
-
-@keyframes count {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: calc(100% - 40px);
-    }
 }
 
 .section-2 .skill .team-skills .php-val {
@@ -261,21 +230,6 @@ html {
     height: 30px;
     background-color: var(--main-color);
     display: block;
-    animation-name: count;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-    animation-iteration-count: 1;
-    animation-delay: 0.7s;
-}
-
-@keyframes count {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: calc(100% - 65px);
-    }
 }
 
 .section-2 .skill .team-skills .mysql-val {
@@ -291,21 +245,6 @@ html {
     height: 30px;
     background-color: var(--main-color);
     display: block;
-    animation-name: count;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-    animation-iteration-count: 1;
-    animation-delay: 0.8s;
-}
-
-@keyframes count {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: calc(100% - 50px);
-    }
 }
 
 .qoute {
